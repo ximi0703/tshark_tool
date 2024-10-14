@@ -1,0 +1,15 @@
+# tshark 路径
+tshark_path: "C:\\Program Files\\Wireshark\\"
+
+# 检测的应用进程名
+process_name: xxx
+
+# 本机ip地址
+localhost: "127.0.0.1"
+
+# 服务器IP
+serverIP: "127.0.0.1"
+
+# 服务器端口
+#port: {"ui": 8996, "service": 8000, "huahang": 8001, "plc": 502, "robot": 1060}
+port: {"ui": 8996, "service": 8000, "plc": 502, "robot": 1060, "tcp": [2000, 2001]}
